@@ -105,9 +105,25 @@ a{
 
 .educationLogo{
   margin:10px 0 0 0;
-  background-color: #e0ece4;
+
 }
 
 .Education{
   margin: 0;
+}
+
+.Hobbies{
+    margin:20px 0 70px 0;
+}
+
+.swimmingImage{
+  margin:0 20px 0 0;
+}
+
+.runningImage{
+  margin:0 20px 0 20px;
+}
+
+.bicycleImage{
+  margin:0 0 0 20px;
 }
