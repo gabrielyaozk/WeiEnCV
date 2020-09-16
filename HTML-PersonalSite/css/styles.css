@@ -3,6 +3,7 @@ body{
   text-align: center;
   margin: 30px;
   position: relative;
+  font-family: 'Merriweather', serif;
 }
 
 hr{
@@ -16,6 +17,7 @@ hr{
 h1{
   /*color: #66BFBF;*/
   color: #eb8f8f;
+
 }
 h2{
   /*color: #66BFBF;*/
@@ -53,7 +55,7 @@ a{
   position: relative;
   width: 1000px;
   height: 300px;
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 
@@ -103,13 +105,29 @@ a{
   left: 400px;
 }
 
-.educationLogo{
-  margin:10px 0 0 0;
+
+.Education{
+  position: relative;
+}
+
+.EducationLogo{
+  position: absolute;
+  left:25%;
+  top: 10px;
 
 }
 
-.Education{
-  margin: 0;
+.EducationWord{
+  position: absolute;
+left: 37%;
+}
+
+.EducationDetails{
+  position: absolute;
+  margin: 10px 0 0 0;
+  top: 60px;
+  left: 25%;
+  text-align: left;
 }
 
 .Hobbies{
@@ -126,4 +144,15 @@ a{
 
 .bicycleImage{
   margin:0 0 0 20px;
+}
+
+.AboutMe{
+padding-top: 10px;
+}
+
+.AboutMeParagraph{
+  position: absolute;
+  left: 125px;
+  width: 750px;
+  text-align:left;
 }
